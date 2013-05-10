@@ -7,7 +7,14 @@ require 'uri'
 
 # don't worry about the values inside the hash, they're just for the API
 
-my_number = "12179797638", # <--- !!!!put your number here
+my_group = {
+	"Nimit Maru" => "18168305803"
+	"David Yang" => "12179797638"
+}
+
+my_group.each do |freind_name, friend_number|
+
+my_number = "19177345400" # <--- !!!!put your number here
 text_message = "Hello there from Hacking for Hustlers!"
 
 my_hash = {
@@ -25,6 +32,10 @@ my_final_url =  base_url + query_params
 
 puts "This is my final URL: #{my_final_url}"
 puts "Open this in a browser and you should be getting a text!"
+
+HTTParty.get(my_final_url)
+end
+
 
 # Cut and paste that URL into a web browser
 

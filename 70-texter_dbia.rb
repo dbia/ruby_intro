@@ -7,7 +7,7 @@ require 'uri'
 
 # don't worry about the values inside the hash, they're just for the API
 
-my_number = "12179797638", # <--- !!!!put your number here
+my_number = "19177345400" # <--- !!!!put your number here
 text_message = "Hello there from Hacking for Hustlers!"
 
 my_hash = {
